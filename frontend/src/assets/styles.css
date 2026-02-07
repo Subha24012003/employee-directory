@@ -1,0 +1,127 @@
+/* Global reset */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f3f7f5;
+}
+
+/* App container */
+.app-container {
+  max-width: 750px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1b5e20;
+  font-weight: 600;
+}
+
+/* Search */
+.search-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #c8e6c9;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.employee-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: grid;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.employee-form input,
+.employee-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #c8e6c9;
+}
+
+.employee-form button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.employee-form button:hover {
+  background-color: #1b5e20;
+}
+
+/* Employee card */
+.employee-card {
+  display: flex;
+  gap: 15px;
+  background-color: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+/* Profile image */
+.employee-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #a5d6a7;
+}
+
+/* Card content */
+.employee-info h4 {
+  margin: 0;
+  color: #2e7d32;
+}
+
+.employee-info p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Edit button */
+.employee-card button {
+  margin-left: auto;
+  background-color: #66bb6a;
+  border: none;
+  padding: 6px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.employee-card button:hover {
+  background-color: #388e3c;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .employee-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .employee-card button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
