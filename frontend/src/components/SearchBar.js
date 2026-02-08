@@ -6,7 +6,7 @@ export default function SearchBar({ onSearch }) {
     <input
       className="search-input"
       type="text"
-      placeholder="Search by Employee ID (e.g. EMP001)"
+      placeholder="Search by Employee ID, Name, or Department"
       onChange={(e) => onSearch(e.target.value)}
     />
   );
