@@ -1,4 +1,4 @@
-/* Global reset */
+
 * {
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -9,14 +9,14 @@ body {
   background-color: #f3f7f5;
 }
 
-/* App container */
+
 .app-container {
   max-width: 750px;
   margin: auto;
   padding: 30px 20px;
 }
 
-/* Heading */
+
 h2 {
   text-align: center;
   margin-bottom: 25px;
@@ -24,7 +24,7 @@ h2 {
   font-weight: 600;
 }
 
-/* Search */
+
 .search-input {
   width: 100%;
   padding: 12px;
@@ -33,7 +33,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Form */
 .employee-form {
   background: #ffffff;
   padding: 20px;
@@ -65,7 +64,7 @@ h2 {
   background-color: #1b5e20;
 }
 
-/* Employee card */
+
 .employee-card {
   display: flex;
   gap: 15px;
@@ -77,7 +76,7 @@ h2 {
   align-items: center;
 }
 
-/* Profile image */
+
 .employee-avatar {
   width: 60px;
   height: 60px;
@@ -86,7 +85,7 @@ h2 {
   border: 2px solid #a5d6a7;
 }
 
-/* Card content */
+
 .employee-info h4 {
   margin: 0;
   color: #2e7d32;
@@ -98,7 +97,7 @@ h2 {
   font-size: 14px;
 }
 
-/* Edit button */
+
 .employee-card button {
   margin-left: auto;
   background-color: #66bb6a;
@@ -113,7 +112,7 @@ h2 {
   background-color: #388e3c;
 }
 
-/* Mobile */
+
 @media (max-width: 600px) {
   .employee-card {
     flex-direction: column;
